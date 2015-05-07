@@ -1,5 +1,6 @@
 FROM        debian:8.0
 MAINTAINER  andystanton
+ENV         LANG C.UTF-8
 ENV         LEIN_EXEC_VERSION 0.3.4
 ENV         LEIN_ROOT 1
 RUN         apt-get update -qq -y && \
